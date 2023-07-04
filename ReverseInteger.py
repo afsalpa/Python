@@ -11,6 +11,7 @@ class ReverseInteger:
             negative = True
         s = str(n)
         reverse = int(s[::-1])
+        
         if reverse <= -max or reverse >= max:
             return 0 
         else:
@@ -19,8 +20,6 @@ class ReverseInteger:
             else:
                 return reverse
         
-    
     print(reverseIneger(123))
     print(reverseIneger("-123"))
     print(reverseIneger("120"))
-
