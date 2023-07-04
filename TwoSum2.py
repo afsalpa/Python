@@ -6,7 +6,7 @@ class TwoSum2:
         idx: int
         value : int
         for idx, value in enumerate(nums):
-            diff = (int(target) - int(value))
+            diff = (int(target) - int(value)
             if diff in values:
                 return [values.get(diff),idx]
             else: 
